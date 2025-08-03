@@ -1,0 +1,34 @@
+﻿@model ASPDotNet_CORE_WebApplication.Models.Employees
+<h2>Employee Details</h2>
+
+<form>
+    <div class="mb-3">
+        <input type="text" class="form-control" id="id" value=@Model.Id aria-describedby="emailHelp">
+        <label for="exampleInputEmail1" class="form-label">Name</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" value="@Model.Name" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Department</label>
+        <select class="form-select" aria-label="Select Department" name="Department">
+            <option value="HR" selected>HR</option>
+            <option value="IT">IT</option>
+            <option value="Sales" >Sales</option>
+            <option value="Martking" >Martking</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Age</label>
+        <input type="number" class="form-control" id="exampleInputEmail1" value="@Model.Age" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Salary</label>
+        <input type="number" class="form-control" id="exampleInputPassword1" value="@Model.Salary">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Phone</label>
+        <input type="number" class="form-control" id="exampleInputEmail1" value="@Model.MobileNo" aria-describedby="emailHelp">
+    </div>
+ 
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+

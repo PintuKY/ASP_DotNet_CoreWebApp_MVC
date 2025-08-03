@@ -24,6 +24,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRW1wbG95ZWUxLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/.net-wpf-c\#/C-Sharp-interview-Q/ASPDotNet_CORE_WebApplication/Views/Employee/UpdateEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcVXBkYXRlRW1wbG95ZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/.net-wpf-c\#/C-Sharp-interview-Q/ASPDotNet_CORE_WebApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
