@@ -1,0 +1,29 @@
+﻿@model List<ASPDotNet_CORE_WebApplication.Models.EmployeeModel>
+
+<h2>Employee List</h2>
+
+<table border="1" cellpadding="5" cellspacing="0">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Salary</th>
+            <th>Age</th>
+            <th>Mobile No</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var emp in Model)
+        {
+            <tr>
+                <td>@emp.Id</td>
+                <td>@emp.Name</td>
+                <td>@emp.Department</td>
+                <td>@emp.Salary</td>
+                <td>@emp.Age</td>
+                <td>@emp.MobileNo</td>
+            </tr>
+        }
+    </tbody>
+</table>

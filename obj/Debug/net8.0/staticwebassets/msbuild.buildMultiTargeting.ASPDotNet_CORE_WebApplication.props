@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ASPDotNet_CORE_WebApplication.props" />
+</Project>
