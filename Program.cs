@@ -1,10 +1,17 @@
-using ASPDotNet_CORE_WebApplication.Services;
+using ASPDotNet_CORE_WebApplication.AddDbcontext;
+using ASPDotNet_CORE_WebApplication.Repository;
+
+using Microsoft.EntityFrameworkCore;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<IServicesEmployee, EmployeeServices>();
+//builder.Services.AddScoped<IServicesEmployee, EmployeeServices>();
+builder.Services.AddScoped<IRepositoryEmployee, EmpRepository>();
+builder.Services.AddDbContext<AppDbContext>(x=>x.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -28,6 +35,6 @@ app.MapControllerRoute(
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Employee}/{action=Employee}/{id?}");
+    pattern: "{controller=Employee}/{action=Employee1}/{id?}");
 
 app.Run();

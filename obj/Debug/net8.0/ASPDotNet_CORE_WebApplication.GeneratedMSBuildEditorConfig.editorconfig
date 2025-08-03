@@ -20,12 +20,8 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/.net-wpf-c\#/C-Sharp-interview-Q/ASPDotNet_CORE_WebApplication/Views/Employee/Employee.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRW1wbG95ZWUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/.net-wpf-c\#/C-Sharp-interview-Q/ASPDotNet_CORE_WebApplication/Views/Home/Employee.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbXBsb3llZS5jc2h0bWw=
+[D:/.net-wpf-c\#/C-Sharp-interview-Q/ASPDotNet_CORE_WebApplication/Views/Employee/Employee1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRW1wbG95ZWUxLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/.net-wpf-c\#/C-Sharp-interview-Q/ASPDotNet_CORE_WebApplication/Views/Home/Index.cshtml]

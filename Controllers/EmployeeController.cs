@@ -1,21 +1,20 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using ASPDotNet_CORE_WebApplication.Models;
-using ASPDotNet_CORE_WebApplication.Services;
+using ASPDotNet_CORE_WebApplication.Repository;
 
 namespace ASPDotNet_CORE_WebApplication.Controllers
 {
     public class EmployeeController : Controller
     {
-        private readonly IServicesEmployee _employeeService;
-        public EmployeeController(IServicesEmployee serviceEmployee)
+        private readonly IRepositoryEmployee _employeeService;
+        public EmployeeController(IRepositoryEmployee serviceEmployee)
         {
             _employeeService = serviceEmployee;
         }
-        public IActionResult Employee()
+        public IActionResult Employee1()
         {
-            var employees = _employeeService.GetAll();
-            return View(employees);
+            var valemployees = _employeeService.GetAll();
+            return View(valemployees);
         }
     }
 }
